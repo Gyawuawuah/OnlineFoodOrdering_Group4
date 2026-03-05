@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #fff;
+    background-color: #073b4c;
+}
+.main-section{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+.text-logo{
+    font-size: 15rem;
+    font-weight: 800;
+    transition: all ,0.3s;
+    font-family: "Julee",sans-serif;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-logo:hover{
+    color: #f8b229;
+}
+.main-text{
+    margin-bottom: 3.4rem;
+    font-size: 3.4rem;
+    font-weight: 700;
+    font-family: "Julee", sans-serif;
+    color: #f8b229;
+}
+.forms{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.forms input{
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: black;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.btn--form{
+    background-color: #f8b229;
+    width: 120rem;
+    border-radius: 1.2rem;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: all,0.5s;
+}
+.btn--form:hover, .btn--form:active{
+    color: #fff;
+    font-weight: 300;
+    background-color: #43AA8B;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.main-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 3.2rem;
+}
+.line2{
+    border-top: 2px solid black;
+    width: 20rem;
+}
+.line3{
+    border-top: 2px solid black;
+    width: 20rem;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-link:visited, .log-link:link{
+    color: #F94144;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2.8rem;
+}
+.log-link:hover,.log-link:active{
+    color: #f8b229;
+}

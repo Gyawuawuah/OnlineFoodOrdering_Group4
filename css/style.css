@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #333;
+}
+
+
+
+
+
+/* Hero Section  */
+
+
+
+.main-header{
+    background-image: linear-gradient(rgba(0,0,0,0.5 ),rgba(0,0,0,0.5)), url(../Images/food_waakye.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.project-logo{
+    color: #ffd166;
+}
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+    padding: 0 3.8rem;
+}
+.main-pages{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+.pages-link:visited,.pages-link:link{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: white;
+    transition: all,0.3s;
+}
+.pages-link:hover,.pages-link:active{
+    color: #f8b229;
+}
+.project-features{
+    margin-bottom: 1.2rem;
+}
+.main-features{
+    display: flex;
+    align-items: center;
+    margin-top: ;
+    padding-left: 2.2rem;
+    gap: 4.4rem;
+    list-style: none;
+}
+.size-6{
+    height: 4.2rem;
+    width: 4.2rem;
+    background-color: #f5dfb4;
+    border-radius: 50%;
+    fill: #577590;
+}
+.Header-section{
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    padding: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-95%,-50%);
+}
+.main-text{
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: #f8b229;
+    line-height: 1.05;
+    margin-bottom: 2.8rem;
+    transition: all,0.3s;
+}
+.main-text:hover{
+    color: #43AA8B;
+}
+.features-text{
+    color: #F9C74F;
+}
+.order{
+    margin-top: 1.8rem;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.order-btn:visited, .order-btn:link{
+    background-color: #f8b229;
+    width: 32rem;
+    border-radius: 1.2rem;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: all,0.5s;
+}
+.order-btn:hover,.order-btn:active{
+    color: #031318;
+    transform: rotate(360deg);
+    font-weight: 300;
+    background-color: #f8b229;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.order-text{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #222;
+    width: 32rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* How it Works Section */
+
+
+
+.works{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* background-color: #f7f7f7; */
+    color: black;
+    flex-direction: column;
+    padding-top: 8.2rem;
+    margin-top: 8.4rem;
+}
+.main-works{
+    font-size: 52px;
+    color: #f8b229;
+    margin-bottom: 7.4rem;
+    font-family:  sans-serif;
+    font-weight: 700;
+} 
+.works-second{
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem 10rem;
+    grid-template-rows: auto 10rem;
+    column-gap: 0.5rem;
+    row-gap: 9px;
+    padding-Top: 12rem;
+    padding-left: auto;
+    padding-right: auto;
+    transform: scale(3);
+}
+.works-second img{
+    height: 13rem;
+    border-radius: 0.5rem;
+    transition: all,0.3s;
+}
+.works-second img:hover{
+    transform: translateY(-1.2rem);
+}
+.works-text{
+    grid-row: 2/-1;
+    text-align: start;
+    font-weight: 700;
+    font-family: "Julee", sans-serif;
+    line-height: 1.05;
+    font-size: 1.2rem;
+    color: #577590;
+}
+
+/* Our Menu */
+.menu{
+    margin-top: 20rem;
+    background-color: #d8e4ee;
+}
+.menu-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5.4rem;
+}
+.text-head{
+    font-size: 52px;
+    color: #F3722C;
+    margin-bottom: 7.4rem;
+    font-family:  sans-serif;
+    font-weight: 700;
+}
+.food-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+    column-gap: 5.4rem;
+    row-gap: 5.4rem;
+    width: 125rem;
+    margin: auto;
+    padding-bottom: 9.4rem;
+}
+.food-list img{
+    height: 30rem;
+    width: 60rem;
+    border-radius: 0.9rem;
+    object-fit: cover;
+    transition: all 0.5s;
+}
+.food-list img:hover{
+    transform: scale(1.2);
+}
+.foods-text{
+    padding-top: 2.4rem;
+}
+.menu-text-header{
+    color: #F94144;
+    font-size: 3.4rem;
+    font-weight: 800;
+    font-family: "Julee", sans-serif;
+}
+.menu-text-sub{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+/* Registration Form */
+
+
+.cta-section{
+    padding: 4.8rem 0 12.8rem;
+}
+.cta-primary{
+    display: grid;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 11px;
+    max-width: 140rem;
+    height: 100rem;
+    margin: 20rem auto 5rem auto;
+}
+.cta-primary-head{
+    padding: 4.8rem 10rem 6.4rem 10rem;
+}
+.cta-header{
+    font-family: 'Julee', sans-serif;
+    font-size: 5.4rem;
+    color: #f8b229;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cta-forms{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+}
+.cta-text{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 4.8rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cta-forms input,
+.cta-forms select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fcf7ed;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem #073b4c;
+}
+.btn--form{
+    background-color: #f8b229;
+    width: 120rem;
+    border-radius: 1.2rem;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: all,0.5s;
+}
+.btn--form:hover, .btn--form:active{
+    color: #fff;
+    font-weight: 300;
+    background-color: #43AA8B;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.main-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 3.2rem;
+}
+.line2{
+    border-top: 2px solid black;
+    width: 55rem;
+}
+.line3{
+    border-top: 2px solid black;
+    width: 55rem;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-link:visited, .log-link:link{
+    color: #073b4c;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2.8rem;
+}
+.log-link:hover,.log-link:active{
+    color: #f8b229;
+}
+
+/* Footer */
+footer{
+    background-color: #073b4c;
+    height: 60vh;
+}
+.footer-Primary{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 1.2rem;
+    padding-top: 5.4rem;
+    padding-bottom: 2.8rem;
+    gap: 15rem;
+    /* font-size: 2.5rem; */
+}
+.product-heading{
+    font-size: 2.4rem;
+    font-weight: 100;
+    margin-bottom: 0.9rem;
+    color: #F3722C;
+}
+.Product-text{
+    list-style: none;
+    font-size: 2.5rem;
+}
+.product-text-btn:link,.product-text-btn:visited{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+    padding-bottom: 0.3rem;
+}
+.product-text-btn:hover,.product-text-btn:active{
+    color: #f8b229;
+}
+.footer-seconary{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    margin: 12.5rem auto 0 auto;
+    padding-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.seconary-inner{
+    display: flex;
+    gap: 2.2rem;
+    color: #F3722C;
+}
+.seconary-inner-text-1{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seconary-inner-text-2{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text{
+    padding: 0.8rem;
+    color: #F3722C;
+}
+.size-7{
+    height: 2.2rem;
+    width: 2.2rem;
+}
+.design-sample:hover,.design-sample:active{
+    transition: all, 0.8s;
+}
+.design-sample:hover,.design-sample:active{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
