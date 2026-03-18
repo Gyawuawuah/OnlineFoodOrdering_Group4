@@ -47,7 +47,7 @@ One major limitation of the system is its dependency on a PHP-enabled server env
 
 
 
-HERO
+HERO section
 <img width="1898" height="912" alt="image" src="https://github.com/user-attachments/assets/3c62e02e-03da-4e93-b4d3-4a0ca41c1576" />
 
 
@@ -58,9 +58,10 @@ Our Menu
 <img width="1007" height="695" alt="image" src="https://github.com/user-attachments/assets/f1609744-e716-4173-bdf0-289777d3634c" />
 
 Registration page
+
 <img width="677" height="486" alt="image" src="https://github.com/user-attachments/assets/55695bf6-4f98-4fb0-a736-7711b860ce43" />
 
-footier
+footier 
 <img width="1905" height="537" alt="image" src="https://github.com/user-attachments/assets/2a9f6ef2-e6f3-4a63-881d-52c0b72ebbd9" />
 
 
