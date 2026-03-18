@@ -9,6 +9,7 @@ Project Title: Online Food Ordering
 A project on online food ordering created by group 4 members. Group 4 backend project at KSTU, Computer Science Department.
 
 #Features 
+
 • Home Page (index.php):
 Provides a welcoming introduction to the system along with a simple and intuitive navigation bar for easy access to key features such as registration and login.
 
@@ -33,6 +34,7 @@ Implements basic input validation and sanitization to prevent invalid data entry
 
 
 #Challenges
+
 • Session Management and Persistence:
 Maintaining user sessions across multiple pages required careful implementation to ensure a seamless user experience. Proper session control mechanisms were necessary to keep users authenticated during navigation and to securely terminate sessions upon logout to prevent unauthorized access.
 
